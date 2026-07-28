@@ -1,1 +1,66 @@
 
+    margin-bottom:30px;
+
+}
+
+@keyframes rotatePlanet{
+
+    from{
+        transform:rotate(0deg);
+    }
+
+    to{
+        transform:rotate(360deg);
+    }
+
+}
+
+@keyframes floatPlanet{
+
+    50%{
+        transform:
+        translateY(-15px)
+        rotate(180deg);
+    }
+
+}
+
+/* ===========================
+   INTRO TEXT
+=========================== */
+
+.intro-text{
+
+    text-align:center;
+    z-index:10;
+
+}
+
+.intro-text h1{
+
+    font-size:60px;
+    color:#00e5ff;
+    text-shadow:0 0 20px cyan;
+
+}
+
+.intro-text h2{
+
+    color:#ffffff;
+    margin-bottom:10px;
+
+}
+
+.intro-text h3{
+
+    color:#ddd;
+    margin-top:10px;
+
+}
+
+#typing{
+
+    margin-top:20px;
+    color:#00ffff;
+    font-weight:bold;
+  
